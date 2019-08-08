@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+<body>
+<form method="post" th:action="@{/login/do}">
+    ainiyo:<input type="text" name="username" >
+    <br>
+
+    yaosi:<input type="password" name="password">
+    <br>
+    <input type="submit" value="go">
+</form>
+</body>
+</html>
